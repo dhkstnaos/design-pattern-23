@@ -1,6 +1,6 @@
 package com.programmers.lambda;
 
 @FunctionalInterface
-public interface MyMapper {
-    int map(String s);
+public interface MyMapper<IN, OUT> {
+    OUT map(IN s);
 }
