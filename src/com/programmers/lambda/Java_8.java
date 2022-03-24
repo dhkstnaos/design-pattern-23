@@ -97,5 +97,7 @@ public class Java_8 {
         //count,min,max
         int max = langs2.stream().map(String::length).min(comp1).get();
         System.out.println("max: "+max);
+
+        String[] strings1 = langs2.stream().toArray(String[]::new);
     }
 }
