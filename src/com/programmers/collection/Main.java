@@ -38,7 +38,7 @@ public class Main {
                 .filter(i->i%2==1)
                 .foreach(System.out::println);
 
-        int size = new MyCollection<>(Arrays.asList("A", "Bc", "Cdd", "Deee", "Eeeee"))
+        new MyCollection<>(Arrays.asList("A", "Bc", "Cdd", "Deee", "Eeeee"))
                 .map(String::length)
                 .filter(i -> i % 2 == 1)
                 .size();

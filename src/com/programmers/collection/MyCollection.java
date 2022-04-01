@@ -34,4 +34,19 @@ public class MyCollection<T> {
             System.out.println(list.get(i));
         }
     }
+
+    public MyIterator<T> iterator() {
+        return new MyIterator<T>() {
+            private int index=0;
+            @Override
+            public boolean hasNext() {
+                return index<list.size();
+            }
+
+            @Override
+            public T next() {
+                return list.get(index++);
+            }
+        };
+    }
 }
