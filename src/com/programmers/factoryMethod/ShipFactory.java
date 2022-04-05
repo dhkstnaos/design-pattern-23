@@ -10,7 +10,7 @@ public interface ShipFactory {
     }
 
     Ship createShip();
-    static void validate(String name,String email) {
+    private void validate(String name,String email) {
         if(name== null || name.isEmpty()) {
             throw new IllegalArgumentException("배 이름을 지어주세요.");
         }
@@ -18,10 +18,10 @@ public interface ShipFactory {
             throw new IllegalArgumentException("연락처를 지어주세요.");
         }
     }
-    static void prepareFor(String name) {
-        System.out.println(name + "만들 준비 중");
+    private void prepareFor(String name) {
+        System.out.println(name + " 만들 준비 중");
     }
-    static void sendToEmail(String email,Ship ship) {
-        System.out.println(ship.getName() + "다 만들었습니다.");
+    private void sendToEmail(String email,Ship ship) {
+        System.out.println(ship.getName() + " 다 만들었습니다.");
     }
 }
