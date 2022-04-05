@@ -17,11 +17,10 @@ public class Button {
         }
     }
 
-
     public static void main(String[] args) {
         Button button = new Button();
-        button.press(new GameStartCommand(new Game()));
-        button.press(new LightOnCommand(new Light()));
+        button.press(new GameCommand(new Game()));
+        button.press(new LightCommand(new Light()));
         button.undo();
         button.undo();
     }

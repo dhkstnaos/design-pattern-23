@@ -1,9 +1,9 @@
 package com.programmers.command;
 
-public class GameStartCommand implements Command{
+public class GameCommand implements Command{
     private Game game;
 
-    public GameStartCommand(Game game) {
+    public GameCommand(Game game) {
         this.game = game;
     }
 

@@ -12,8 +12,4 @@ public class Light {
         System.out.println("불을 끕니다.");
         this.isOn = false;
     }
-
-    public boolean isOn() {
-        return this.isOn;
-    }
 }
