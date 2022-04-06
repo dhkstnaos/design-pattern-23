@@ -1,9 +1,14 @@
 package com.programmers.factoryMethod;
 
+import com.programmers.abstractFactoryMethod.inter.Anchor;
+import com.programmers.abstractFactoryMethod.inter.Wheel;
+
 public class Ship {
     private String name;
     private String color;
     private String logo;
+    private Wheel wheel;
+    private Anchor anchor;
 
     public String getName() {
         return name;
@@ -27,5 +32,21 @@ public class Ship {
 
     public void setLogo(String logo) {
         this.logo = logo;
+    }
+
+    public Wheel getWheel() {
+        return wheel;
+    }
+
+    public void setWheel(Wheel wheel) {
+        this.wheel = wheel;
+    }
+
+    public Anchor getAnchor() {
+        return anchor;
+    }
+
+    public void setAnchor(Anchor anchor) {
+        this.anchor = anchor;
     }
 }
