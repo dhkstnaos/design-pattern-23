@@ -1,4 +1,4 @@
-package com.programmers.abstractFactoryMethod;
+package com.programmers.abstractFactory;
 
 import com.programmers.factoryMethod.ShipFactory;
 

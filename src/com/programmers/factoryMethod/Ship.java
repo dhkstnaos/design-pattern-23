@@ -1,7 +1,7 @@
 package com.programmers.factoryMethod;
 
-import com.programmers.abstractFactoryMethod.inter.Anchor;
-import com.programmers.abstractFactoryMethod.inter.Wheel;
+import com.programmers.abstractFactory.inter.Anchor;
+import com.programmers.abstractFactory.inter.Wheel;
 
 public class Ship {
     private String name;

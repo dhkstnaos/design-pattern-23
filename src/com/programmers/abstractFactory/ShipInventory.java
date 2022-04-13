@@ -1,7 +1,6 @@
-package com.programmers.abstractFactoryMethod;
+package com.programmers.abstractFactory;
 
-import com.programmers.abstractFactoryMethod.pro.WhitePartsProFactory;
-import com.programmers.abstractFactoryMethod.standard.WhiteShipPartsFactory;
+import com.programmers.abstractFactory.pro.WhitePartsProFactory;
 import com.programmers.factoryMethod.Ship;
 import com.programmers.factoryMethod.ShipFactory;
 

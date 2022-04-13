@@ -9,7 +9,7 @@ public class Client {
         board.addPost("이터레이터 패턴 시작");
         board.addPost("이터레이터 패턴 종료");
         board.addPost("디자인 패턴 게임 종료");
-
+        System.out.println();
         Iterator<Post> recentIterator = board.getRecentIterator();
         while(recentIterator.hasNext()) {
             System.out.println("recentIterator.next().getContent() = " + recentIterator.next().getContent());

@@ -1,4 +1,4 @@
-package com.programmers.abstractFactoryMethod.inter;
+package com.programmers.abstractFactory.inter;
 
 public interface ShipPartsFactory {
     Anchor createAnchor();

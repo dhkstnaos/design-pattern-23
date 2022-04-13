@@ -1,8 +1,8 @@
-package com.programmers.abstractFactoryMethod.standard;
+package com.programmers.abstractFactory.standard;
 
-import com.programmers.abstractFactoryMethod.inter.Anchor;
-import com.programmers.abstractFactoryMethod.inter.ShipPartsFactory;
-import com.programmers.abstractFactoryMethod.inter.Wheel;
+import com.programmers.abstractFactory.inter.Anchor;
+import com.programmers.abstractFactory.inter.ShipPartsFactory;
+import com.programmers.abstractFactory.inter.Wheel;
 
 public class WhiteShipPartsFactory implements ShipPartsFactory {
     @Override
