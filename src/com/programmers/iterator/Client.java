@@ -11,7 +11,7 @@ public class Client {
         board.addPost("디자인 패턴 게임 종료");
         System.out.println();
         Iterator<Post> recentIterator = board.getRecentIterator();
-        while(recentIterator.hasNext()) {
+        while (recentIterator.hasNext()) {
             System.out.println("recentIterator.next().getContent() = " + recentIterator.next().getContent());
         }
     }
